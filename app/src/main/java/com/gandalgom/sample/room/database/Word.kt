@@ -1,4 +1,4 @@
-package com.gandalgom.sample.room
+package com.gandalgom.sample.room.database
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -1,4 +1,4 @@
-package com.gandalgom.sample.room
+package com.gandalgom.sample.room.database
 
 import android.content.Context
 import androidx.room.Database

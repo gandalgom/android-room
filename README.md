@@ -1,6 +1,6 @@
 # Android Room with a View - Kotlin Sample
 
-This code is based on the Google CodeLab in
+This code is based on the [Android Room with a View - Kotlin](https://developer.android.com/codelabs/android-room-with-a-view-kotlin#0) CodeLab in
 
 [https://github.com/googlecodelabs/android-room-with-a-view/tree/kotlin](https://github.com/googlecodelabs/android-room-with-a-view/tree/kotlin)
 

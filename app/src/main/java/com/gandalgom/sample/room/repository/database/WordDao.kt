@@ -1,4 +1,4 @@
-package com.gandalgom.sample.room.database
+package com.gandalgom.sample.room.repository.database
 
 import androidx.room.Dao
 import androidx.room.Insert

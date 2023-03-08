@@ -1,10 +1,10 @@
-package com.gandalgom.sample.room
+package com.gandalgom.sample.room.repository
 
 import androidx.annotation.WorkerThread
 import kotlinx.coroutines.flow.Flow
 
-import com.gandalgom.sample.room.database.Word
-import com.gandalgom.sample.room.database.WordDao
+import com.gandalgom.sample.room.repository.database.Word
+import com.gandalgom.sample.room.repository.database.WordDao
 
 // Declares the DAO as a private property in the constructor. Pass in the DAO
 // instead of the whole database, because you only need access to the DAO

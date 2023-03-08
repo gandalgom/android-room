@@ -1,4 +1,4 @@
-package com.gandalgom.sample.room
+package com.gandalgom.sample.room.viewmodels
 
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.LiveData
@@ -7,7 +7,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 
-import com.gandalgom.sample.room.database.Word
+import com.gandalgom.sample.room.repository.database.Word
+import com.gandalgom.sample.room.repository.WordRepository
 
 class WordViewModel(private val repository: WordRepository) : ViewModel() {
     // Using LiveData and caching what allWords returns has several benefits:

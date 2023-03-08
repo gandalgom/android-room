@@ -1,4 +1,4 @@
-package com.gandalgom.sample.room
+package com.gandalgom.sample.room.views
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,8 +7,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.gandalgom.sample.room.R
 
-import com.gandalgom.sample.room.database.Word
+import com.gandalgom.sample.room.repository.database.Word
 
 class WordListAdapter : ListAdapter<Word, WordListAdapter.WordViewHolder>(WordsComparator()) {
 
